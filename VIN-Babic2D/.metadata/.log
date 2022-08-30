@@ -1,0 +1,64 @@
+!SESSION 2022-03-16 14:40:34.963 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  H:\ome\rok_plesko\Workspace\Vaja5\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 H:\ome\rok_plesko\Workspace\Vaja5\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-16 14:40:42.740
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-16 14:40:42.820
+!MESSAGE Log4j initialized with config file H:\ome\rok_plesko\Workspace\Vaja5\.metadata\.log4j.xml
+
+!ENTRY org.eclipse.ui.workbench 4 2 2022-03-16 14:40:45.311
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:424)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:425)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:425)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.importProjectImpl(MCUProjectImporter.java:312)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.handleArguments(MCUProjectImporterStartup.java:138)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.earlyStartup(MCUProjectImporterStartup.java:57)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2022-03-16 14:40:45.321
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'com.st.stm32cube.ide.mcu.ide' plug-in.
+!STACK 0
+java.lang.NullPointerException
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:424)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:425)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.searchNestedProjects(MCUProjectImporter.java:425)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter.importProjectImpl(MCUProjectImporter.java:312)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.handleArguments(MCUProjectImporterStartup.java:138)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporterStartup.earlyStartup(MCUProjectImporterStartup.java:57)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench$40.run(Workbench.java:2667)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-16 14:40:45.451
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-03-16 14:42:40.576 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  H:\ome\rok_plesko\Workspace\Vaja5\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 H:\ome\rok_plesko\Workspace\Vaja5\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-16 14:42:47.951
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-16 14:42:48.021
+!MESSAGE Log4j initialized with config file H:\ome\rok_plesko\Workspace\Vaja5\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-16 14:42:51.152
+!MESSAGE Started RMI Server, listening on port 41337

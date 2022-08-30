@@ -1,0 +1,6 @@
+../Application/game.c:90:6:Game	16	static
+../Application/game.c:182:9:Intro	16	static
+../Application/game.c:412:7:GamePlay_UpdateChanges	16	static
+../Application/game.c:367:9:GamePlay	16	static
+../Application/game.c:698:9:GameOver	24	static
+../Application/game.c:810:6:GamePlay_Update_Aiming_LED_Indicator	24	static
