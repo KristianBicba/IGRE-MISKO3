@@ -1,0 +1,5 @@
+../Core/Src/main.c:103:5:f32_to_q31	8	static
+../Core/Src/main.c:109:7:q31_to_f32	8	static
+../Core/Src/main.c:497:6:SystemClock_Config	88	static,ignoring_inline_asm
+../Core/Src/main.c:157:5:main	360	static,ignoring_inline_asm
+../Core/Src/main.c:1176:6:Error_Handler	0	static,ignoring_inline_asm
